@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color:#f3f3f3;
+}
+p{
+	font-size:1.1rem;
+}
+.logo{
+	width: 270px;
+    margin-top: 12px;
+}
+.byline{
+	font-size: 1.3rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+    color: #a82b2a;
+}
+.bgWhite{
+	background-color: white;
+    margin-top: 3rem;
+    padding: 2rem 0 2rem;
+}
+#mainNav::before{
+	content: '';
+    border-bottom: 51px solid #a82b2a;
+    position: absolute;
+    border-top: 52px solid transparent;
+    border-left: 29px solid transparent;
+    top: -52px;
+    left: -29px;
+}
+#mainNav::after{
+	content: '';
+    border-bottom: 51px solid #a82b2a;
+    position: absolute;
+    border-top: 52px solid transparent;
+    border-right: 29px solid transparent;
+    top: -52px;
+    right: -29px;
+}
+#mainNav{
+	background-color:#a82b2a;
+	padding:0.5rem 1rem;
+	position:relative;
+	z-index: 1;
+}
+#mainNav .navbar-nav .nav-item .nav-link{
+	color:#fff;
+	font-family:  'Nunito', sans-serif;
+}
+.banner, .banner-about, .banner-oil, .banner-fragrant, .banner-reiki, .banner-shop{
+	height: 550px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -55px;
+	position: relative;
+    overflow: hidden;
+	z-index: -1;
+}
+.banner::before, .banner-about::before , .banner-oil::before, .banner-fragrant::before, .banner-reiki::before, .banner-shop::before{
+	border-radius: 50%;
+	position: absolute;	
+	right: -200px;
+	left: -200px;
+	top: -200px;
+	content: '';
+	bottom: 0;
+	background-size: cover;
+	/* background-position: 70% 304%; */
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.banner::before{
+	background-image:url("../images/mainimage.jpg");
+}
+.banner-oil::before{
+	background-image:url("../images/sergey-shmidt.jpg");
+}
+.banner-oil_new::before{
+	background-image:url("../images/pexels-rodnae-productions-6724313 (1).jpg");
+}
+.banner-fragrant::before{
+	background-image:url("../images/anais-kowalczyk.jpg");
+}
+.banner-reiki::before{
+	background-image:url("../images/alysa-bajenaru.jpg");
+}
+.banner-reiki2::before{
+	background-image:url("../images/pexels-visually-us-1477166.jpg");
+}
+.banner-shop::before{
+	background-image:url("../images/henry-be.jpg");
+}
+.banner-about::before{
+	background-image:url("../images/banner11.jpg");
+	/* background-position: 70% 304%; */
+}
+.banner_home{
+	height: 550px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -55px;
+	position: relative;
+    overflow: hidden;
+	z-index: -1;
+}
+.banner_home::before {
+	border-radius: 50%;
+	position: absolute;
+	background-image:url("../images/banner11.jpg");
+	right: -200px;
+	left: -200px;
+	top: -200px;
+	content: '';
+	bottom: 0;
+	background-size: cover;
+	background-position:center;
+	/* background-position: 70% 304%; */
+	background-repeat:no-repeat;
+}
+.catCircle{
+	width:13rem;
+	height:13rem;
+	border-radius:50%;
+	background-image:url("../images/ishtar1.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -10rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle_new{
+	width:13rem;
+	height:13rem;
+	border-radius:50%;
+	background-image:url("../images/pexels-javon-swaby-1697912.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -10rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle1{
+	width:13rem;
+	height:13rem;
+	border-radius:50%;
+	background-image:url("../images/Soul of the Rose J.W.Waterhouse.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -6rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle1_new{
+	width:13rem;
+	height:13rem;
+	border-radius:50%;
+	background-image:url("../images/pexels-tuấn-kiệt-jr-1382734.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -6rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle2{
+	width:13rem;
+	height:13rem; 
+	border-radius:50%;
+	background-image:url("../images/reiki_heart_157183810_std.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -10rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle2_new{
+	width:13rem;
+	height:13rem; 
+	border-radius:50%;
+	background-image:url("../images/pexels-pixabay-266429.jpg");
+	background-size: cover;
+	background-position:top;
+	margin-top: -10rem;
+	box-shadow: 1px 1px 8px 2px #0000007a;
+	transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.catCircle:hover, .catCircle1:hover, .catCircle2:hover{
+	text-decoration:none;
+	transform: rotateY(180deg);
+}
+.catCircle:hover .textCircle, .catCircle1:hover .textCircle, .catCircle2:hover .textCircle{
+	display:none;
+}
+.textCircle{
+	font-size: 1.5rem;
+    background: #0404047a;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    margin-left: 0;
+    color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-weight:600;
+	text-align:center;
+	border: 7px solid #bcbc06;
+}
+.reiki{
+	object-fit:cover;
+	width:100%;
+	border-top-left-radius: 62px;
+    border-bottom-right-radius: 62px;
+    box-shadow: 1px -3px 8px 1px #272727b8;
+}
+.sessionBtn{
+	background-color:#a82b2a;
+	color:white;
+	padding:7px 1rem;
+	font-size:0.8rem;
+	border-radius:0;
+	font-weight:600;
+	transition:0.2s ease-in-out;
+}
+.shopBtn{
+	background-color:#a82b2a;
+	color:white;
+	padding:7px 1.5rem;
+	font-size:1rem;
+	border-radius:0;
+	font-weight:600;
+	transition:0.2s ease-in-out;
+}
+.sessionBtn:hover, .shopBtn:hover{
+	color:#a82b2a;
+	background-color:white;
+	border:1px solid #a82b2a;	
+}
+.read{
+	color:#a82b2a;
+	font-weight:600;
+	text-decoration:underline;
+}
+.read:hover{
+	color:#a82b2a;
+}
+.iconReiki .carousel-control-prev-icon, .iconReiki .carousel-control-next-icon{
+	background-image:none;
+	color:black;	
+}
+.iconReiki{
+	width:0;
+}
+.iconReiki.carousel-control-prev{
+	left: -15px;
+}
+.iconReiki.carousel-control-next{
+	right: -15px;
+}
+.pageTitle{
+	background: #a82b2a;
+    color: white;
+    padding: 0.47rem 10px;
+    font-size: 1.5rem;
+    min-width: 235px;
+    text-align: center;	
+	position:relative;
+	font-family:'Philosopher', sans-serif; 
+}
+.pageTitle::before{
+	content: '';
+    border-top: 26px solid #a82b2a;
+    border-bottom: 25px solid #a82b2a;
+    border-left: 40px solid transparent;
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+.pageTitle::after{
+	content: '';
+    border-top: 26px solid #a82b2a;
+    border-bottom: 25px solid #a82b2a;
+    border-right: 40px solid transparent;
+    position: absolute;
+    right: -40px;
+    top: 0;
+}
+.oilImg{
+	/* height: 100%; */
+    object-fit: cover;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 2px 4px 1px #00000061;
+}
+.blogImg{
+	height:200px;
+	object-fit:cover;
+	width:100%;
+	margin-bottom:1rem;
+}
+.blogDiv{
+	border:1px solid #000;
+}
+.userImage{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	display:block;
+	margin:1rem auto;
+	object-fit:cover;
+}
+.blockquote{
+	display:flex;
+}
+#client-testimonial-carousel {min-height: 130px;}
+.subscribe{
+	background-image:url("../images/pexels-pixabay-36718.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:3rem;
+	position:relative;
+}	
+.empower{
+	background-image:url("../images/white-rose.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:5rem 1rem;
+	position:relative;
+}
+.Reiki-empower{
+	background-image:url("../images/7e6688dde5b5760281aa14b5013deaf3.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:5rem 1rem;
+	position:relative;
+}	
+.Reiki-empower1{
+	background-image:url("../images/pexels-irina-iriser-943905.jpg");
+	background-size:cover;
+	background-position:center;
+	padding:5rem 1rem;
+	position:relative;
+}
+.fragrant{
+	background-image:url("../images/03ba11e3de6078ac2274e5f3459b3cc3.png");
+	background-size:cover;
+	background-position:center;
+	padding:5rem 1rem;
+	position:relative;
+}	
+.opacityBlack{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:black;
+	opacity:0.5;
+}
+.opacityWhite{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:White;
+	opacity:0.5;
+}
+.submit{
+	background-color:#a82b2a;
+	color:white;
+	font-weight:600;
+	border-radius:0;
+}
+.subTitle{
+	color:white;
+	font-weight:600;`
+}
+.socialIcons {
+	list-style:none;
+	padding:0;
+	margin-bottom:0;
+}
+.socialIcons li{
+	float:left;
+	padding:5px;
+}
+.socialIcons li a{
+	color:white;
+}
+footer{
+	background-color:#a82b2a;
+	padding-top: 1rem;
+}
+footer p{
+	color:white;
+}
+
+
+/* Css for contact us page */
+.Cont{
+	margin-top: -50px;
+}
+.contactBanner{
+	position:relative;
+}
+.contactBanner img{
+	height:300px;
+	width:100%;
+	object-fit:cover;
+	margin-top: -55px;
+}
+.contactTitle{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#0000006b;
+	color:white;
+	margin-top: -55px;
+	text-align:center;	
+	padding: 8rem 1rem;
+}
+.contactTitle h1{
+	font-weight:700;
+	font-family:'Philosopher', sans-serif;
+}
+.contactBlock{
+	background-color:white;
+	border-radius:15px;
+	box-shadow:0px 0px 6px 1px #ddd;
+	height: 100%;
+}
+.contactForm, .contactForm input, .contactForm textarea{
+	width:100%;
+}
+.contactForm label{
+	margin-bottom:0;
+	font-size:14px;
+}
+.contactForm label span{
+	color: #f50e0d;
+    font-weight: 600;
+}
+.contactForm input, .contactForm textarea{
+	border:1px solid #ddd;
+	padding:5px 15px;
+}
+.contactForm input:focus, .contactForm textarea:focus{
+	border:1px solid #a82b2a;
+	outline:0;
+}
+.fontA{
+	color: #fff;
+    font-size: 1.5rem;
+    margin-top: 11px;
+    background: #a82b2a;
+    padding: 9px;
+	width: 47px;
+    height: 47px;
+    text-align: center;
+}
+.contDetail{
+	margin-top:10px;
+}
+.contDetail h6{
+	margin-bottom: 5px;
+	font-weight:600;
+	font-family:'Philosopher', sans-serif;
+}
+.product{
+	background-color:white;
+	border-radius:15px;
+	padding-bottom:15px;
+	margin-bottom:1rem;
+}
+.product img{
+	height:200px;
+	object-fit:cover;
+	width:100%;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;	
+}
+.product p{
+	margin-bottom:5px;
+}
+.product .category{
+	font-size:15px;
+	font-weight:600;
+	color:#b3b1b3;
+}
+
+@media only screen and (max-width:767px){
+	.logo{
+		width: 140px;
+	}
+	.navbar-toggler{
+		background: white;
+		color:#a82b2a;
+	}
+	.banner{
+		height: 500px;
+	}
+	.customNav{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.oilImg{
+		width:100%;
+		margin-bottom:1.5rem;
+		height:200px;
+	}
+	#mainNav::after, #mainNav::before{
+		display:none;
+	}
+	.pageTitle{
+		font-size:1.1rem;
+		padding: 6px;
+	}
+	.pageTitle::after, .pageTitle::before{
+		border-top: 19px solid #a82b2a;
+		border-bottom: 19px solid #a82b2a;
+	}
+	.blockquote{ 
+		display:block;
+	}
+	.contactBanner img{
+		height: 330px;
+	}
+	.contactTitle{
+	    padding: 10rem 1rem;	
+	}
+}
+@media only screen and (min-width:547px) and (max-width:767px){
+	.catCircle{
+		margin-top:-6rem;
+	}
+	.catCircle2{
+		margin-top:0;
+	}
+}
+@media only screen and (max-width:546px){
+	.catCircle{
+		margin-top: -6rem;
+	}
+	.catCircle1, .catCircle2{
+		margin-top:2rem;
+	}
+}
+@media only screen and (max-width:991px){
+	.catCircle, .textCircle, .catCircle1, .catCircle2{
+		width: 14rem;
+		height: 14rem;
+	}
+	.textCircle{
+		font-size: 1.3rem;
+	}
+	.oil1, 	.oil2{
+		height: 200px;
+		width:100%;
+	}
+}
+
+@media only screen and (min-width:992px){
+	.oil1{
+		height: 444px;
+	}
+	.oil2{
+		height: 200px;
+		width:100%;
+	}
+}
+@media only screen and (min-width:768px){
+	ul.navbar-nav{
+		display: block;
+		text-align: center;
+	}
+	li.nav-item{
+		display: inline-block;
+		float: none;
+	}
+	.blockquote div{
+		width:90%;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+	.contactTitle, .contactBanner img{
+		margin-top: -96px;
+	}
+	.contactTitle{
+		padding: 9rem 1rem;
+	}
+}
+
+
+/*NEW*/
+
+.main_great_grand_parent{
+    min-height: 100vh;
+    background-color: #f9f7fa;
+}
+.top_section_right h1{
+color: #587450; font-weight: 300; text-align: center; letter-spacing: .5px; font-size: 36px!important;
+}
+
+.nav_main{
+    background: #a82b2a;
+}
+
+.nav_main .collapse .navbar-nav .nav-item .nav-link{ 
+    display: inline-block;
+}
+
+.content_section_child{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.content_section_main_head{
+    color: #587450; font-weight: 400; line-height: 32px;
+}
+
+.content_section h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.after_content_sec h1{
+    font-size: 38px;
+    font-weight: 300;
+    color: #a82b2a;
+    line-height: 46px;
+    width: 60%;
+    text-align: center;
+}
+.content_section p{
+     color: #000000!important;
+}
+.after_content_sec img{
+    width: 40%;  
+}
+.after_content_sec h4{
+    font-size: 26px;
+    font-size: 700;
+    color: #587450;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+
+.link_sec_child{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.link_sec .row ul li {
+    list-style: none;
+}
+.link_sec .row ul li a:hover {
+    text-decoration: none;
+}
+.link_sec_right{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/*----------------------------------- MEDIA QUERIES----------------------------------------------- */
+
+@media only screen and (max-width:768px){
+    .main_grand_parent{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+    .header_sec{
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    .nav_main .navbar ul,.nav_main .navbar ul li{
+        display: block!important;
+    }
+
+	.top_section_right h1{
+        font-size: 16px!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        }
+        .content_section_child{
+            padding-left: .2rem!important;
+            padding-right: .2rem!important;
+        }
+        .content_section_main_head{
+            font-size: 24px!important;
+        }
+        .content_section_sub_head{
+            font-size: 14px;
+        }
+        .content_section p{
+            font-size: 12px;
+       }
+       .after_content_sec h1,.after_content_sec h4{
+           font-size: 20px;
+           line-height: 24px;
+       }
+       .after_content_sec img {
+        width: 60%;
+    }
+
+    .link_sec_child{
+        padding-left: 0;
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+    }
+       .link_sec li a,.link_sec li{
+           font-size: 13px;
+       }
+       .link_sec_right{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+}
