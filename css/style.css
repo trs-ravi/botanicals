@@ -11,7 +11,7 @@ p{
 	font-size:1.1rem;
 }
 .logo{
-	width: 270px;
+	width: 350px;
     margin-top: 12px;
 }
 .byline{
@@ -79,6 +79,8 @@ p{
 }
 .banner::before{
 	background-image:url("../images/mainimage.jpg");
+	background-size: 100% 100%;
+    background-position-y: 150px;
 }
 .banner-oil::before{
 	background-image:url("../images/sergey-shmidt.jpg");
